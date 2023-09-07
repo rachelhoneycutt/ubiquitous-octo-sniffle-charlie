@@ -1,0 +1,19 @@
+body {
+  background-color: #e2d0f7;
+}
+
+img {
+  width: 40%;
+  height: auto;
+  border-radius: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+h3 {
+  text-align: center;
+  color: green;
+}
