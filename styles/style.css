@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
   background-color: #e2d0f7;
+  /* Added background */
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="36" height="72" viewBox="0 0 36 72"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
 }
 
 img {
@@ -16,4 +20,10 @@ h1 {
 h3 {
   text-align: center;
   color: green;
+}
+
+/* Added a font and size to the new output */
+#gameOutput {
+  font-size: 100px;
+  font-family: 'Press Start 2P', cursive;
 }
